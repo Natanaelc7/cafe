@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<settings>
+   
+  <!-- for detailed info about the settings see http://webgrabplus.com/documentation/configuration/webgrabconfigxml -->
+   
+  <filename>guide.xml</filename>
+  <mode></mode>
+  <postprocess grab="y" run="n">mdb</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:29.0) Gecko/20100101 Firefox/29.0</user-agent>
+  <logging>on</logging>
+  <retry time-out="5">4</retry>
+  <timespan>6</timespan>
+  <update>f</update>
+ 
+  <!--
+            Replace the next dummy channel entry with the channels you want.
+			You can look into the installed siteini.pack folder on your computer
+  
+            For the latest version,
+            see http://webgrabplus.com/epg-channels for the available sites/channels
+  -->
+  
+    <channel update="i" site="mi.tv" site_id="ar_82e4a1cf-335b-4e7b-9b87-073a16c40a96" xmltv_id="Fox">Fox</channel>
+     <channel update="i" site="mi.tv" site_id="ar_b1181051-08e4-4a3f-bbf6-31fdaf1c8de0" xmltv_id="Hbo">Hbo</channel>
+ <channel update="i" site="mi.tv" site_id="ar_b8163287-e597-4e08-a304-96e1f1395769" xmltv_id="Cinemax">Cinemax</channel>
+ 
+ 
+</settings>
